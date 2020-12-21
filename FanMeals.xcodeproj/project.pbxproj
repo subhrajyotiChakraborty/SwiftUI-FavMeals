@@ -11,6 +11,9 @@
 		2247C59225907F0400F0D7C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247C59125907F0400F0D7C7 /* ContentView.swift */; };
 		2247C59425907F0500F0D7C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2247C59325907F0500F0D7C7 /* Assets.xcassets */; };
 		2247C59725907F0500F0D7C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2247C59625907F0500F0D7C7 /* Preview Assets.xcassets */; };
+		2247C5A6259093B200F0D7C7 /* AddMeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247C5A5259093B200F0D7C7 /* AddMeals.swift */; };
+		2247C5AA259096BB00F0D7C7 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247C5A9259096BB00F0D7C7 /* Meal.swift */; };
+		2247C5AE2590BFE400F0D7C7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247C5AD2590BFE400F0D7C7 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		2247C59325907F0500F0D7C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2247C59625907F0500F0D7C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2247C59825907F0500F0D7C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2247C5A5259093B200F0D7C7 /* AddMeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeals.swift; sourceTree = "<group>"; };
+		2247C5A9259096BB00F0D7C7 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		2247C5AD2590BFE400F0D7C7 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				2247C58F25907F0400F0D7C7 /* FanMealsApp.swift */,
 				2247C59125907F0400F0D7C7 /* ContentView.swift */,
+				2247C5A5259093B200F0D7C7 /* AddMeals.swift */,
+				2247C5AD2590BFE400F0D7C7 /* ImagePicker.swift */,
+				2247C5A9259096BB00F0D7C7 /* Meal.swift */,
 				2247C59325907F0500F0D7C7 /* Assets.xcassets */,
 				2247C59825907F0500F0D7C7 /* Info.plist */,
 				2247C59525907F0500F0D7C7 /* Preview Content */,
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2247C5AA259096BB00F0D7C7 /* Meal.swift in Sources */,
+				2247C5A6259093B200F0D7C7 /* AddMeals.swift in Sources */,
+				2247C5AE2590BFE400F0D7C7 /* ImagePicker.swift in Sources */,
 				2247C59225907F0400F0D7C7 /* ContentView.swift in Sources */,
 				2247C59025907F0400F0D7C7 /* FanMealsApp.swift in Sources */,
 			);
